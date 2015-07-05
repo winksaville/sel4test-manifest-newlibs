@@ -23,7 +23,7 @@ fetch="."
 remote="seL4"
 />
 
-<project name="seL4.git" path="kernel" revision="libsel4-no-libc-dependency"/>
+<project name="seL4.git" path="kernel" revision="no-libc-dependency-newlibs"/>
 <project name="libsel4_assert.git" path="libs/libsel4_assert"/>
 <project name="libsel4_benchmark.git" path="libs/libsel4_benchmark"/>
 <project name="libsel4_printf.git" path="libs/libsel4_printf"/>
