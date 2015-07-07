@@ -24,10 +24,10 @@ remote="seL4"
 />
 
 <project name="seL4.git" path="kernel" revision="no-libc-dependency-newlibs"/>
-<project name="libsel4assert.git" path="libs/libsel4_assert"/>
-<project name="libsel4benchmark.git" path="libs/libsel4_benchmark"/>
-<project name="libsel4printf.git" path="libs/libsel4_printf"/>
-<project name="libsel4putchar.git" path="libs/libsel4_putchar"/>
+<project name="libsel4assert.git" path="libs/libsel4assert"/>
+<project name="libsel4benchmark.git" path="libs/libsel4benchmark"/>
+<project name="libsel4printf.git" path="libs/libsel4printf"/>
+<project name="libsel4putchar.git" path="libs/libsel4putchar"/>
 <project name="common-tool.git" path="tools/common"/>
 <project name="kbuild-tool.git" path="tools/kbuild"/>
 <project name="elfloader-tool.git" path="tools/elfloader"/>
