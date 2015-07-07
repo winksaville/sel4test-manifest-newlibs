@@ -24,21 +24,21 @@ remote="seL4"
 />
 
 <project name="seL4.git" path="kernel" revision="no-libc-dependency-newlibs"/>
-<project name="libsel4_assert.git" path="libs/libsel4_assert"/>
-<project name="libsel4_benchmark.git" path="libs/libsel4_benchmark"/>
-<project name="libsel4_printf.git" path="libs/libsel4_printf"/>
-<project name="libsel4_putchar.git" path="libs/libsel4_putchar"/>
+<project name="libsel4assert.git" path="libs/libsel4_assert"/>
+<project name="libsel4benchmark.git" path="libs/libsel4_benchmark"/>
+<project name="libsel4printf.git" path="libs/libsel4_printf"/>
+<project name="libsel4putchar.git" path="libs/libsel4_putchar"/>
 <project name="common-tool.git" path="tools/common"/>
 <project name="kbuild-tool.git" path="tools/kbuild"/>
 <project name="elfloader-tool.git" path="tools/elfloader"/>
 <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
 <project name="libsel4muslcsys.git" path="libs/libsel4muslcsys"/>
 <project name="libsel4platsupport.git" path="libs/libsel4platsupport"/>
-<project name="libsel4test.git" path="libs/libsel4test"/>
-<project name="libsel4allocman.git" path="libs/libsel4allocman"/>
+<project name="libsel4test.git" path="libs/libsel4test" revision="no-libc-dependency-newlibs"/>
+<project name="libsel4allocman.git" path="libs/libsel4allocman" revision="no-libc-dependency-newlibs"/>
 <project name="libsel4vka.git" path="libs/libsel4vka"/>
 <project name="libsel4vspace.git" path="libs/libsel4vspace"/>
-<project name="libsel4utils.git" path="libs/libsel4utils"/>
+<project name="libsel4utils.git" path="libs/libsel4utils" revision="no-libc-dependency-newlibs"/>
 <project name="libcpio.git" path="libs/libcpio"/>
 <project name="libelf.git" path="libs/libelf"/>
 <project name="libsel4simple.git" path="libs/libsel4simple"/>
@@ -46,7 +46,7 @@ remote="seL4"
 <project name="libsel4simple-stable.git" path="libs/libsel4simple-stable"/>
 <project name="libplatsupport.git" path="libs/libplatsupport"/>
 <project name="libutils.git" path="libs/libutils"/>
-<project name="sel4test.git" path="projects/sel4test">
+<project name="sel4test.git" path="projects/sel4test" revision="no-libc-dependency-newlibs">
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="Kbuild" dest="Kbuild"/>
     <linkfile src="Kconfig" dest="Kconfig"/>
