@@ -25,7 +25,6 @@ remote="seL4"
 
 <project name="seL4.git" path="kernel" revision="libsel4-no-libc-dependency"/>
 <project name="libsel4assert.git" path="libs/libsel4assert"/>
-<project name="libsel4benchmark.git" path="libs/libsel4benchmark"/>
 <project name="libsel4string.git" path="libs/libsel4string"/>
 <project name="libsel4printf.git" path="libs/libsel4printf"/>
 <project name="libsel4putchar.git" path="libs/libsel4putchar"/>
